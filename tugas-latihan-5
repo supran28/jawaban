@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <script>var Nama  = prompt("Nama Mahasiswa");
+        var Nilai = prompt ("Nilai");
+                if(Nilai > 70){
+                    document.write("Selamat anda telah lulus"+ "<br>Nama:"+ Nama+"" + "<br>Nilai:"+ Nilai+"")
+                } else {
+                    document.write("Mohon maaf anda tidak lulus"+ "<br>Nama:"+ Nama+"" + "<br>Nilai:"+ Nilai+"");
+            }</script>
+</body>
+</html>
